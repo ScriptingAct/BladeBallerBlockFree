@@ -1,0 +1,21 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Blade Ball Normal Version")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Settings")
+
+KillingCheats:CreateButton("Auto Block", function()
+     loadstring(Game:HttpGet("https://pastebin.com/raw/egesZvDu"))()
+end)
+
+KillingCheats:CreateButton("Esp", function()
+     loadstring(Game:HttpGet("https://pastebin.com/raw/7K1Jhmck"))()
+end)
+
+KillingCheats:CreateButton("Use Any Abilities", function()
+     loadstring(Game:HttpGet("https://pastebin.com/raw/W4vVx0ti"))()
+end)
+
+KillingCheats:CreateButton("Blade Ball FREE SCRIPT", function()
+     loadstring(Game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+end)
